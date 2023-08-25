@@ -118,10 +118,7 @@ function Home() {
   const toggleInvoice = () => {
     setInvoiceOpen(!invoiceOpen);
   };
-  const [invoiceModalOpen, setInvoiceModalOpen] = useState(false);
-  const toggleInvoiceModal = () => {
-    setInvoiceModalOpen(!invoiceModalOpen);
-  };
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (modalRef.current && !modalRef.current.contains(event.target)) {
@@ -294,9 +291,9 @@ function Home() {
                               />
                             </svg>
 
-                            <a href="#" className="block py-2 px-4 text-[15px]">
+                            <p  className="block py-2 px-4 text-[15px]">
                               View
-                            </a>
+                            </p>
                           </div>
                         </li>
                         <li>
@@ -318,9 +315,9 @@ function Home() {
                               />
                             </svg>
 
-                            <a href="#" className="block py-2 px-4 text-[15px]">
+                            <p  className="block py-2 px-4 text-[15px]">
                               Payment
-                            </a>
+                            </p>
                           </div>
                         </li>
                         <li>
@@ -337,9 +334,9 @@ function Home() {
                               <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
                             </svg>
 
-                            <a href="#" className="block py-2 px-4 text-[15px]">
+                            <p  className="block py-2 px-4 text-[15px]">
                               Send
-                            </a>
+                            </p>
                           </div>
                         </li>
                         <li>
@@ -360,9 +357,9 @@ function Home() {
                               />
                             </svg>
 
-                            <a href="#" class="block py-2 px-4 text-[15px]">
+                            <p class="block py-2 px-4 text-[15px]">
                               Delete
-                            </a>
+                            </p>
                           </div>
                         </li>
                       </ul>

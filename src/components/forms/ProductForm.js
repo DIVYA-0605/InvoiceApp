@@ -1,6 +1,6 @@
 // AddItemForm.js
 import React from "react";
-import { Link, useNavigate } from "react-router-dom"; // Import useNavigate
+import {useNavigate } from "react-router-dom"; // Import useNavigate
 
 function AddItemForm() {
   const navigate = useNavigate(); // Initialize the navigate function

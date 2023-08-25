@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { NavLink, useLocation } from "react-router-dom"; // Import Link from react-router-dom
 
@@ -49,12 +49,12 @@ function Header() {
             </span>
           </NavLink>
           <div className="flex items-center">
-            <a
-              href="#"
+            <p
+              
               className="text-lg text-blue-600 dark:text-blue-500 hover:underline"
             >
               Login
-            </a>
+            </p>
           </div>
         </div>
       </nav>
