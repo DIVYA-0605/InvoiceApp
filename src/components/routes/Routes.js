@@ -6,6 +6,10 @@ import CustomerScreen from "../pages/CustomerScreen";
 import AddItemForm from "../forms/ProductForm";
 import CustomerForm from "../forms/CustomerForm";
 import InvoiceForms from "../forms/InvoiceForms";
+import InvoicesScreen from "../pages/InvoicesScreen";
+import OrderScreen from "../pages/OrderScreen";
+import PurchasesScreen from "../pages/PurchasesScreen";
+import InventoryScreen from "../pages/InventoryScreen";
 
 const AppRoutes = () => {
   return (
@@ -16,6 +20,10 @@ const AppRoutes = () => {
       <Route path="/AddProductForm" element={<AddItemForm />} />
       <Route path="/CustomerForm" element={<CustomerForm/>} />
       <Route path="/InvoiceForm" element={<InvoiceForms/>} />
+      <Route path="/InvoiceScreen" element={<InvoicesScreen/>} />
+      <Route path="/OrderScreen" element={<OrderScreen/>} />
+      <Route path="/PurchaseScreen" element={<PurchasesScreen/>} />
+      <Route path="/InventoryScreen" element={<InventoryScreen/>} />
 
     </Routes>
   );

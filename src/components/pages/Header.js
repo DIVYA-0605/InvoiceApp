@@ -6,11 +6,11 @@ const menus = [
   { name: "Home", path: "/" },
   {
     name: "Orders",
-    path: "/sitesetup",
+    path: "/OrderScreen",
   },
   {
     name: "Invoices",
-    path: "/usersetup",
+    path: "/InvoiceScreen",
   },
   {
     name: "Customers",
@@ -22,11 +22,11 @@ const menus = [
   },
   {
     name: "Inventory",
-    path: "/notifications",
+    path: "/InventoryScreen",
   },
   {
     name: "Purchases",
-    path: "/billing",
+    path: "/PurchaseScreen",
   },
 ];
 
