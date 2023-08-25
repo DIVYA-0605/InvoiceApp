@@ -46,19 +46,19 @@ function InvoiceForms() {
     <div>
    
   <div class="py-8 px-4 mx-auto max-w-4xl lg:py-12">
-      <h2 class="mb-10 text-2xl font-bold text-gray-900 dark:text-white">Create New Invoice</h2>
+      <h2 class="mb-10 text-2xl font-bold text-gray-900 ">Create New Invoice</h2>
       <form action="#" >
                 <div className="grid gap-4 mb-4 sm:grid-cols-2">
                   <div>
                     <label
                       for="category"
-                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      className="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Bill From
                     </label>
                     <select
                       id="category"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
                     >
                       <option selected="">Select an option</option>
                       <option value="TV">TV/Monitors</option>
@@ -70,13 +70,13 @@ function InvoiceForms() {
                   <div>
                     <label
                       for="category"
-                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      className="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Bill To
                     </label>
                     <select
                       id="category"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
                     >
                       <option selected="">Select an option</option>
                       <option value="TV">TV/Monitors</option>
@@ -88,7 +88,7 @@ function InvoiceForms() {
                   <div>
                     <label
                       for="brand"
-                      class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      class="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Recipient Email
                     </label>
@@ -96,7 +96,7 @@ function InvoiceForms() {
                       type="email"
                       name="brand"
                       id="brand"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 "
                       placeholder="Product brand"
                       required=""
                     />
@@ -104,7 +104,7 @@ function InvoiceForms() {
                   <div>
                     <label
                       for="brand"
-                      class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      class="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Bill Title
                     </label>
@@ -112,7 +112,7 @@ function InvoiceForms() {
                       type="text"
                       name="brand"
                       id="brand"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" 
                       placeholder="Product brand"
                       required=""
                     />
@@ -120,7 +120,7 @@ function InvoiceForms() {
                   <div>
                     <label
                       htmlFor="issuedOn"
-                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      className="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Issued On
                     </label>
@@ -131,14 +131,14 @@ function InvoiceForms() {
                       min={today}
                       value={issuedOn}
                       onChange={handleIssuedOnChange}
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 "
                       required=""
                     />
                   </div>
                   <div>
                     <label
                       htmlFor="issuedOn"
-                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      className="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Due On
                     </label>
@@ -149,7 +149,7 @@ function InvoiceForms() {
                       min={today}
                       value={dueOn}
                       onChange={handleDueOnChange}
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 "
                       required=""
                     />
                   </div>
@@ -157,7 +157,7 @@ function InvoiceForms() {
 
                 {/* Invoice Table */}
                 <div className="mb-4">
-                  <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">
+                  <h3 className="text-lg font-semibold mb-2 text-gray-900 ">
                     Invoice Items
                   </h3>
                   <table className="w-full">
@@ -187,7 +187,7 @@ function InvoiceForms() {
                               onChange={(e) =>
                                 handleItemChange(index, "item", e.target.value)
                               }
-                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 "
                             />
                           </td>
                           <td className="p-2">
@@ -201,7 +201,7 @@ function InvoiceForms() {
                                   e.target.value
                                 )
                               }
-                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 "
                             />
                           </td>
                           <td className="p-2 text-right">
@@ -215,7 +215,7 @@ function InvoiceForms() {
                                   e.target.value
                                 )
                               }
-                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 "
                             />
                           </td>
                           <td className="p-2 text-right">
@@ -229,7 +229,7 @@ function InvoiceForms() {
                                   e.target.value
                                 )
                               }
-                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 "
                             />
                           </td>
                           <td className="p-2 text-right">
@@ -239,7 +239,7 @@ function InvoiceForms() {
                               onChange={(e) =>
                                 handleItemChange(index, "total", e.target.value)
                               }
-                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-1 "
                             />
                           </td>
                           <td className="p-2">
@@ -289,21 +289,21 @@ function InvoiceForms() {
                 <div className="sm:col-span-2 mb-4">
                   <label
                     for="description"
-                    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    className="block mb-2 text-sm font-medium text-gray-900 "
                   >
                     Notes
                   </label>
                   <textarea
                     id="description"
                     rows="4"
-                    className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
                     placeholder="Write your notes here..."
                   ></textarea>
                 </div>
                 <button
                 onClick={handleSubmit}
                   type="submit"
-                  className="text-white inline-flex items-center bg-[#8000FF] hover:bg-[#8000FF] focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                  className="text-white inline-flex items-center bg-[#8000FF] hover:bg-[#8000FF] focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                 >
                   <svg
                     className="mr-1 -ml-1 w-6 h-6"

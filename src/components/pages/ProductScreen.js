@@ -85,7 +85,7 @@ function ProductScreen() {
               <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                  className="w-5 h-5 text-gray-500 "
                   fill="currentColor"
                   viewbox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ function ProductScreen() {
               <input
                 type="text"
                 id="simple-search"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 "
                 placeholder="Search"
                 required=""
               ></input>
@@ -109,7 +109,7 @@ function ProductScreen() {
         </div>
         <Link to="/AddProductForm">
         <button
-          className="flex items-center justify-center text-white bg-[#8000FF] hover:bg-[#8000FF] focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+          className="flex items-center justify-center text-white bg-[#8000FF] hover:bg-[#8000FF] focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2  focus:outline-none "
           type="button"
         >
           <svg
@@ -154,7 +154,7 @@ function ProductScreen() {
                 <td className="px-10 py-3 relative">
                   <button
                     onClick={() => toggleDrop(index)}
-                    className="inline-flex  items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100"
+                    className="inline-flex  items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none "
                     type="button"
                   >
                     <svg
@@ -169,9 +169,9 @@ function ProductScreen() {
                   </button>
 
                   {dropOpen === index && (
-                    <div className="absolute top-10 right-5 z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                    <div className="absolute top-10 right-5 z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow ">
                       <ul
-                        className="py-1 text-sm text-gray-700 dark:text-gray-200"
+                        className="py-1 text-sm text-gray-700 "
                         aria-labelledby="nikon-d850-dropdown-button"
                       >
                         <li>
