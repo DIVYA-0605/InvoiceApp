@@ -5,7 +5,7 @@ import ProductScreen from "../pages/ProductScreen";
 import CustomerScreen from "../pages/CustomerScreen";
 import AddItemForm from "../forms/ProductForm";
 import CustomerForm from "../forms/CustomerForm";
-import InvoiceForm from "../forms/InvoiceForm";
+import InvoiceForms from "../forms/InvoiceForms";
 
 const AppRoutes = () => {
   return (
@@ -15,7 +15,7 @@ const AppRoutes = () => {
       <Route path="/CustomerScreen" element={<CustomerScreen />} />
       <Route path="/AddProductForm" element={<AddItemForm />} />
       <Route path="/CustomerForm" element={<CustomerForm/>} />
-      <Route path="/InvoiceForm" element={<InvoiceForm/>} />
+      <Route path="/InvoiceForm" element={<InvoiceForms/>} />
 
     </Routes>
   );
