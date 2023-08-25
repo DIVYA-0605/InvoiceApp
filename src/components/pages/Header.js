@@ -39,7 +39,7 @@ function Header() {
 
   return (
     <div className="shadow-lg">
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="bg-white border-gray-200 ">
         <div className="flex flex-wrap justify-between items-center mx-10 py-4">
           <NavLink to="/" className="flex items-center">
             {" "}
@@ -51,14 +51,14 @@ function Header() {
           <div className="flex items-center">
             <p
               
-              className="text-lg text-blue-600 dark:text-blue-500 hover:underline"
+              className="text-lg text-blue-600  hover:underline"
             >
               Login
             </p>
           </div>
         </div>
       </nav>
-      <nav className="bg-gray-50 dark:bg-gray-700">
+      <nav className="bg-gray-50 ">
         <div className="max-w-screen-xl  py-3 mx-auto">
           <div className="flex items-center justify-center">
             <ul className="flex flex-row font-medium mt-0 mr-6 space-x-3 text-sm">
